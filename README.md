@@ -40,43 +40,50 @@ Designed with **React**, powered by a **Node.js + Express backend**, and securel
 ## 🧭 Folder Structure  
 
 ```
+
 STUDENTIST_APP/
 ├── node_modules/
 ├── public/
-│ └── menu_bg.svpngg
+│   ├── menu_bg.svpngg
+│   └── screenshots/
+│       ├── home.png
+│       ├── menu.png
+│       ├── selection.png
+│       └── pdf.png
 ├── src/
-│ ├── assets/
-│ ├── components/
-│ │ └── DialogBox/
-│ │ ├── DialogBox.jsx
-│ │ └── dialogSlice.js
-│ ├── constants/
-│ │ └── steps.js
-│ ├── data/
-│ ├── hooks/
-│ │ ├── useFetchNotes.jsx
-│ │ └── useSteps.jsx
-│ ├── sections/
-│ │ ├── Home/
-│ │ │ ├── Home.jsx
-│ │ │ ├── homeSlice.js
-│ │ │ └── selectionSlice.js
-│ │ ├── Menu/
-│ │ │ ├── Menu.jsx
-│ │ │ └── menuSlice.js
-│ │ └── PdfReader/
-│ │ └── PdfReader.jsx
-│ ├── Store/
-│ │ └── store.js
-│ ├── App.jsx
-│ ├── index.css
-│ ├── main.jsx
-│ └── vite.config.js
+│   ├── assets/
+│   ├── components/
+│   │   └── DialogBox/
+│   │       ├── DialogBox.jsx
+│   │       └── dialogSlice.js
+│   ├── constants/
+│   │   └── steps.js
+│   ├── data/
+│   ├── hooks/
+│   │   ├── useFetchNotes.jsx
+│   │   └── useSteps.jsx
+│   ├── sections/
+│   │   ├── Home/
+│   │   │   ├── Home.jsx
+│   │   │   ├── homeSlice.js
+│   │   │   └── selectionSlice.js
+│   │   ├── Menu/
+│   │   │   ├── Menu.jsx
+│   │   │   └── menuSlice.js
+│   │   └── PdfReader/
+│   │       └── PdfReader.jsx
+│   ├── Store/
+│   │   └── store.js
+│   ├── App.jsx
+│   ├── index.css
+│   ├── main.jsx
+│   └── vite.config.js
 ├── .gitignore
 ├── package.json
 ├── package-lock.json
 ├── tailwind.config.js
 └── README.md
+
 ```
 
 
