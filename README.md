@@ -2,7 +2,7 @@
 
 > **"Because learning should be effortless, not endless searching."**  
 
-![Banner](/public/logo.png) <!-- 
+![Banner](/public/logo.png) 
 
 ---
 
