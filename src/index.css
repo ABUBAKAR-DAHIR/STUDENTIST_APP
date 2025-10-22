@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import 'tailwindcss';
+@config '../tailwind.config.js';
+
+html{
+  @apply bg-s1 
+}
+
+body {
+  @apply font-poppins text-[16px] tracking-[-0.03em] text-p1 overflow-x-hidden;
+}
+
+a {
+  @apply no-underline;
+}
+
+img {
+  @apply block max-w-full;
+}
+
+button {
+  @apply bg-none tracking-[-0.03em];
+}
+
+input {
+  @apply tracking-[-0.03em];
+}
+
+/* Start of typography */
+.h1 {
+  @apply text-[104px] font-black leading-[84px] tracking-[-0.03em];
+}
+
+.h2 {
+  @apply text-[64px] max-lg:text-[55px] font-black leading-[64px];
+}
+
+.h3 {
+  @apply text-[48px] font-semibold leading-[56px] tracking-[-0.02em] max-sm:text-[40px];
+}
+
+.h4 {
+  @apply text-[40px] font-semibold leading-[52px];
+}
+
+.h5 {
+  @apply text-[32px] font-semibold leading-[40px];
+}
+
+.h6 {
+  @apply text-[24px] font-medium leading-[36px];
+}
+
+/* Start of Home page */
+.plus{
+  @apply relative 
+}
+
+.plus::before{
+  @apply absolute content-[''] top-0 left-0 text-s1 w-3 h-[1.6px] bg-s1 
+}
+.plus::after{
+  @apply absolute content-[''] -top-0 left-0 text-s1 w-3 h-[1.6px] bg-s1 z-0 rotate-90 
+}
+
+.icon-wrapper{
+  @apply w-[40px] h-[40px] p-2 rounded-full bg-s1 text-p1 flex items-center justify-center text-[17px]
+}
+
+.nav-item{
+  @apply relative cursor-pointer transition-all duration-500
+}
+
+.nav-item::before{
+  @apply absolute content-[''] -bottom-1 left-0.5  w-full h-[1.5px] bg-p1 origin-left transition-all duration-500 scale-0
+}
+
+.nav-item:hover::before{
+  @apply scale-100 
+}
+/* Start of Home page */
+
+/* Start of DialogBox */
+.list-button{
+  @apply px-6 py-3 rounded-xl border-2 border-s1 text-s2 cursor-pointer hover:bg-p3/75
+}
+/* End of DialogBox */
+
+/* Start of Menu */
+.bars{
+  @apply relative w-3 h-[1.6px] bg-p1
+}
+.bars::before{
+  @apply absolute content-[''] top-2 left-0 w-3 h-[1.6px] bg-p1
+}
+.bars::after{
+  @apply absolute content-[''] -top-2 left-0 w-3 h-[1.6px] bg-p1
+}
+/* End of Menu */
