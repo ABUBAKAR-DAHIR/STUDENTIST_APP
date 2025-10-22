@@ -113,16 +113,16 @@ Open 👉 http://localhost:5173
 # 📸 UI Sneak Peek
 
 ### Step Navigation
-![Step Navigation](image.png)
+![Step Navigation](/public/screenshots/home.png)
 
 ### Menu Page
-![Menu Page](image-4.png)
+![Menu Page](/public/screenshots/menu.png)
 
 ### Selection
-![Selection](image-2.png)
+![Selection](/public/screenshots/selection.png)
 
 ### PDF Reading
-![PDF Reading](image-3.png)
+![PDF Reading](/public/screenshots/pdf.png)
 
 
 
