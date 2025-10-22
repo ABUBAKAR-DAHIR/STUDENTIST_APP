@@ -116,7 +116,7 @@ Open 👉 http://localhost:5173
 ![Step Navigation](image.png)
 
 ### Menu Page
-![Menu Page](image-1.png)
+![Menu Page](image-4.png)
 
 ### Selection
 ![Selection](image-2.png)
