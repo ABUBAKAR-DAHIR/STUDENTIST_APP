@@ -2,7 +2,7 @@
 
 > **"Because learning should be effortless, not endless searching."**  
 
-![Banner](https://i.imgur.com/zPQGkJd.png) <!-- Optional: Replace with your own banner -->
+![Banner](/public/logo.png) <!-- 
 
 ---
 
@@ -44,7 +44,7 @@ Designed with **React**, powered by a **Node.js + Express backend**, and securel
 STUDENTIST_APP/
 ├── node_modules/
 ├── public/
-│   ├── menu_bg.svpngg
+│   ├── logo.png
 │   └── screenshots/
 │       ├── home.png
 │       ├── menu.png
