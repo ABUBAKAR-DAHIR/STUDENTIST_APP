@@ -18,12 +18,15 @@ export default function PdfReader() {
     // let encodedPdf = encodeURI(currentPdf)
     console.log("Pdf link:  " + currentPdf);
     // console.log("encoded link:  " + encodedPdf);
-    let defaultLayoutPluginInstance = defaultLayoutPlugin()
+    
+    let defaultLayoutPluginInstance = defaultLayoutPlugin({
+      theme: 'dark'
+    })
     
   return (
     <div className='h-screen'>
         <Worker workerUrl="https://unpkg.com/pdfjs-dist@3.11.174/build/pdf.worker.min.js">
-            <Viewer fileUrl={currentPdf} plugins={[defaultLayoutPluginInstance]}/>
+            <Viewer fileUrl={currentPdf} plugins={[defaultLayoutPluginInstance]} theme='dark'/>
         </Worker>
     </div>
   )
